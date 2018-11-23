@@ -1,4 +1,5 @@
-# self is defined as an instance of a class(similar to this in c++),and variables first, last and pay are called instance variables.
+# self is defined as an instance of a class(similar to this in c++),and variables e.g. first, last and pay are called instance variables.
+# instance variables are the ones that are unique for each instance e.g. first, last and pay. They are unique to each instance.
 # __init__ is called as constructor(in languages like c++), this function is called as soon as we create object/instance of the class.
 # we can pass default values to functions as __init__(self, pay=3000)
 
