@@ -8,13 +8,16 @@
 
 
 class Employee:
-
-	raise_amount = 1.04 # is a class variable 
+	
+	num_of_emps = 0	
+	raise_amount = 1.04 # are a class variables 
 
 	def __init__(self, first, last, pay):
 		self.first = first
 		self.last = last
 		self.pay = pay
+		
+		Employee.num_of_emps += 1 # Refer to apply_raise method for explanation
 
 	def full_name(self):
 		return '{} {}'.format(self.first, self.last)
@@ -47,3 +50,6 @@ print(e2.pay)
 #to print instance of class like what it contains
 print(e1.__dict__)
 print(e2.__dict__)
+
+
+print(Employee.num_of_emps)
