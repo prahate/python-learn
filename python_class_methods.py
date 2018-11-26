@@ -34,6 +34,15 @@ class Employee:
 	def set_raise_amount(cls, amount):
 		cls.raise_amount = amount
 
+	# We are defining static methods to find if day is work day or not.
+	# this method does not use anything from class instance
+	
+	@staticmethod
+	def is_workday(day):
+		if day.weekday() == 5 or day.weekday() == 6:
+			return False
+		return True
+
 # following statement shows using classmethod
 Employee.set_raise_amount(1.05)
 
@@ -46,4 +55,8 @@ e2.apply_raise()
 
 print(e1.pay)
 print(e2.pay)
+
+import datetime
+mydate = datetime.date(2018, 12, 29)
+print(Employee.is_workday(mydate))
 
