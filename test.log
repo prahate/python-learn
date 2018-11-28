@@ -1,0 +1,16 @@
+DEBUG:root:Add: 10 + 3 := 13
+DEBUG:root:Subtract: 10 + 3 := 7
+DEBUG:root:Multiply: 10 + 3 := 30
+DEBUG:root:Subtract: 10 + 3 := 3.3333333333333335
+DEBUG:root:Add: 20 + 4 := 24
+DEBUG:root:Subtract: 20 + 4 := 16
+DEBUG:root:Multiply: 20 + 4 := 80
+DEBUG:root:Subtract: 20 + 4 := 5.0
+DEBUG:root:Add: 20 + 4 := 24
+DEBUG:root:Subtract: 20 + 4 := 16
+DEBUG:root:Multiply: 20 + 4 := 80
+DEBUG:root:Subtract: 20 + 4 := 5.0
+2018-11-28 18:04:23,212:10:Add: 20 + 4 := 24
+2018-11-28 18:04:23,213:10:Subtract: 20 + 4 := 16
+2018-11-28 18:04:23,213:10:Multiply: 20 + 4 := 80
+2018-11-28 18:04:23,213:10:Subtract: 20 + 4 := 5.0
