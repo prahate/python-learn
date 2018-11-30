@@ -1,0 +1,4 @@
+Hi this is the first line
+You are opeing file to read content
+You can edit this as well
+You will learn about file operations
